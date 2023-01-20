@@ -156,7 +156,7 @@
     transform: rotateY(-216deg) 
       translatez(calc(var(--size) / -2 )) 
       /* translatex(-50%) translatey(-82%); */
-      translatex(-30%) translatey(-30%);
+      translatex(-30%) translatey(-80%);
     transition: transform .5s 1s 
       cubic-bezier(.24,.05,.66,1.24);
   }
@@ -485,9 +485,9 @@
   } */
 
   .andrew {
-    width: 200px;
-    height: 300px;
-    transform: translatex(0px) translateY(50px);
+    width: 150px;
+    height: 200px;
+    transform: translatex(0px) translateY(0px);
     position: absolute;
     top: 0;
     right: 0;
